@@ -1,32 +1,68 @@
+// //
+// // Personal Portfolio
+// // Main SCSS file
+// //
 //
-// Personal Portfolio
-// Main SCSS file
+// // load config
+// @import 'config/config';
 //
+// // load mixins
+// @import 'mixins/mixins_general';
+// @import 'mixins/mixins_breakpoints';
+// @import 'mixins/mixins_grids';
+//
+// // load base
+// @import 'base/reset';
+// @import 'base/helper_classes';
+// @import 'base/typography';
+//
+// // load structure
+// @import 'structure/header';
+// @import 'structure/sections';
+// @import 'structure/footer';
+//
+// // load modules
+// @import 'modules/grids';
+//
+// // load pages
+// @import 'pages/welcome';
+// @import 'pages/services';
+// @import 'pages/portfolio';
+// @import 'pages/blog';
+// @import 'pages/contact';
+button {
+  width: 25px;
 
-// load config
-@import 'config/config';
+}
 
-// load mixins
-@import 'mixins/mixins_general';
-@import 'mixins/mixins_breakpoints';
-@import 'mixins/mixins_grids';
-
-// load base
-@import 'base/reset';
-@import 'base/helper_classes';
-@import 'base/typography';
-
-// load structure
-@import 'structure/header';
-@import 'structure/sections';
-@import 'structure/footer';
-
-// load modules
-@import 'modules/grids';
-
-// load pages
-@import 'pages/welcome';
-@import 'pages/services';
-@import 'pages/portfolio';
-@import 'pages/blog';
-@import 'pages/contact';
+#C {
+  width: auto;
+}
+body {
+  background-color: #9FB798;
+}
+.calculator {
+   border-radius: 18px;
+  border: 1px solid #D6D6D6;
+    padding: 10px;
+    width: 150px;
+    display: inline-block;
+    background-color: #28587B;
+    box-shadow: 3px 3px #7E9178;
+}
+#ans {
+  border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    color: #333;
+    padding: 2px;
+    margin-bottom: 5px;
+    outline: none;
+    width: 100%;
+}
+#clearButtons {
+  float:right;
+}
+.calcContainer {
+  text-align: center;
+  margin-top: 40px;
+}
